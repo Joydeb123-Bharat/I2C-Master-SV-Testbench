@@ -8,6 +8,7 @@ This project was specifically designed, simulated, and verified using **AMD Xili
 **⚠️ Note on Verification Methodology:** This verification environment explicitly bypasses Vivado’s auto-generated GUI testbenches and standard IP blocks. Instead, it utilizes a 100% custom-coded, industry-standard SystemVerilog layered architecture (TLM) to demonstrate deep protocol knowledge, constrained randomization, and automated self-checking capabilities.
 
 ---
+<img width="3400" height="3180" alt="i2c_master_block_diagram" src="https://github.com/user-attachments/assets/bb7b1cf1-8a41-4f53-a83b-b331c8dc102b" />
 
 ## 🛠️ RTL Architecture: I2C Master FSM
 The Device Under Test (DUT) is a robust Inter-Integrated Circuit (I2C) Master Controller capable of initiating and sustaining complex read/write transactions.
